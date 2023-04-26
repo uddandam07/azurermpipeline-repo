@@ -1,5 +1,5 @@
 # Starter pipeline
-- task: AzureResourceManagerTemplateDeployment@3
+ task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
     azureResourceManagerConnection: 'azuretrail'
@@ -15,7 +15,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
+ -main
 
 pool:
   vmImage: ubuntu-latest
